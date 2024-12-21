@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="16dp">
+
+    <!-- Dumaloq Icon -->
+    <ImageView
+        android:id="@+id/imageViewHeader"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/img"
+        android:scaleType="centerCrop" />
+
+    <!-- TextView -->
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4K Full Wallpapers"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:layout_marginStart="16dp" />
+</LinearLayout>
